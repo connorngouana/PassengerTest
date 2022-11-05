@@ -72,7 +72,7 @@ class PassengerTest
     @Test
     void testIdFail()
     {
-        Exception exMessage = assertThrows(IllegalArgumentException.class, () -> { myPassenger.setId("G00386");});
+        Exception exMessage = assertThrows(IllegalArgumentException.class, () -> {myPassenger.setId("G00386");});
         assertEquals("This is not a valid Id, Id must have minimum 10 digits", exMessage.getMessage());
     }
 
