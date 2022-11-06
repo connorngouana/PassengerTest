@@ -17,10 +17,6 @@ public class Passenger
 
     }
 
-    public Passenger() {
-
-    }
-
 
     public String getTitle()
     {
