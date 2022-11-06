@@ -13,7 +13,7 @@ class PassengerTest
     @BeforeEach
     void setUp()
     {
-        myPassenger = new Passenger();
+        myPassenger = new Passenger(null,null,null,null,0);
     }
     @Test
     void TestTitle()
